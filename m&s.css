@@ -17,7 +17,7 @@ img{
 h1{
     padding-top: 4.60em;
     color: rgb(12, 12, 12);
-}
+} 
 main{
  display: grid;
  place-items: center;
@@ -34,12 +34,12 @@ footer{
     place-items: center;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
 
 	body {
 		font-size: 18px;
 	}
-	img{
+    img{
         height: 400px;
         width: 400px;
     }
@@ -51,12 +51,11 @@ footer{
 
 	body {
 		font-size: 16px;
+        
 	}
-	img{
+
+    img{
         height: 400px;
         width: 400px;
     }
-
 } 
-
-
