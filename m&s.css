@@ -34,33 +34,3 @@ footer{
     place-items: center;
 }
 
-@media  (max-height: 600px) {
-
-	body {
-		
-		img{
-        height: 100%;
-        width: 100%;
-	}
-    img{
-        height: 100%;
-        width: 100%;
-    }
-
-}
-
-
-@media  (max-height: 450px) {
-
-	body {
-		img{
-        height: 100%;
-        width: 100%;
-        
-	}
-
-    img{
-        height: 100%;
-        width: 100%;
-    }
-} 
