@@ -3,6 +3,7 @@ img{
     max-width: 30em;
     max-height: 30em;
     margin-top: 50px;
+	object-fit: contain;
 }
 
 .div1{
