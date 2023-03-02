@@ -1,0 +1,164 @@
+body{
+    background-color: #f3f3f3;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+form{
+    display: inline-block;
+    
+}
+input{
+    border-style: none;
+}
+textarea{
+    border-style: none;
+}
+.padding{
+    padding: 2%;
+}
+.paddingr{
+    padding: 5%;
+}
+.tc{
+    text-align: center;
+}
+.padding-top{
+    padding-top: 20%;
+}
+.sectionpadtop{
+    padding-top: 5%;
+}
+.padding-bottom{
+    padding-bottom: 10%;
+}
+#submit{
+    background-color: #323232;
+    margin-top: 1%;
+    border-radius: 30rem;
+    padding: 5%;
+    color: #c49963;
+}
+
+h1,h5{
+    font-family: 'open sans';
+    color: #330072;
+    font-weight: 700;
+    font-size: 225%;
+}
+.greyfontcolor{
+    color: #323232;
+}
+.ff{
+    font-family: 'open sans';
+}
+.fontwieght{
+    font-weight: 600;
+}
+.fontweighttop{
+    font-weight: 800;
+    font-size: 4rem;
+}
+.linecolor{
+    color: #c49963;
+    line-height: 2%;
+}
+.textdec{
+    text-decoration: underline;
+    color: #330072;
+}
+.linktop{
+    font-size:200%;
+    display: block;
+    margin-top: 20%;
+}
+
+.paragraphs{
+    color: #330072;
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.bgimg{
+    background-image: url(/img/329339489_211556394752516_512601115922767061_n.jpg);
+    background-position: center;
+    background-repeat: none;
+    object-fit: cover;
+}
+.displaylink{
+    position: relative;
+}
+.positiondisp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.piclinkcolor{
+    color: #330072;
+    background-color: #f3f3f3;
+    text-decoration: none;
+}
+.linkborderrad{
+    border-radius: 1rem;
+}
+.fontsizeadjust{
+    font-size: 200%;
+}
+.revborder{
+    border-style: solid;
+    border-color: #323232;
+}
+.marg{
+    margin: 0.0005%;
+}
+.tr{
+    text-align: right;
+}
+svg{
+    background-color: #c49963;
+    border-radius: 10%;
+    margin: 2%;
+    padding: 1%;
+}
+.footertitles{
+    color: #c49963;
+}
+li,address{
+    color: white;
+}
+footer{
+    background-color: #323232;
+}
+.bottomq{
+    background-color: #323232;
+    color: #f3f3f3;
+    font-family: 'open sans';
+    text-align: center;
+    margin: 0%;
+    font-size: 0.8rem;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+@media (max-width: 576px) {
+    .imgmob{
+        width: 35%;
+        height: 35%;
+    }
+    figure{
+        padding: 25vh;
+    }
+    .paragraphs{
+        font-size: medium;
+    }
+    .marg{
+        margin: 0.25%;
+    }
+}
